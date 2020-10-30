@@ -7,6 +7,7 @@ Serial.begin(9600);
 void loop()
 {
 int val = digitaRead(3);
-delay(100)
+delay(100);
+Serial.println("\n");
 Serial.println(val);
 }
