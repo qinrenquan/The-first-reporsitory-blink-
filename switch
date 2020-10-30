@@ -1,0 +1,12 @@
+#include<arduino>
+void setup()
+{
+pinMode(3,input);
+Serial.begin(9600);
+}
+void loop()
+{
+int val = digitaRead(3);
+delay(100)
+Serial.println(val);
+}
